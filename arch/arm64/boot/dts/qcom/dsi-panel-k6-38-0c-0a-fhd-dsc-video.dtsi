@@ -289,13 +289,13 @@
 					39 01 00 00 00 00 29 B1 27 0D FB 0F A4 86 01 FF 10 33 FF 10 FF 35 34 5A 0A 0A 0A 29 29 29 37 37 37 41 41 41 45 45 45 1B 2F DA 18 74 80 00 00 22
 					39 01 00 00 00 00 03 F0 A5 A5];
 				qcom,mdss-dsi-dispparam-flat-mode-off-command-state = "dsi_lp_mode";
-				qcom,mdss-dsi-dispparam-bc-900hz-command = [
+				qcom,mdss-dsi-dispparam-bc-90hz-command = [
 					/* Brightness Control - Freq Setting */
 					39 00 00 00 00 00 03 F0 5A 5A
 					39 00 00 00 00 00 02 60 01
 					39 00 00 00 00 00 02 F7 0B
 					39 01 00 00 00 00 03 F0 A5 A5];
-				qcom,mdss-dsi-dispparam-bc-900hz-command-state = "dsi_lp_mode";
+				qcom,mdss-dsi-dispparam-bc-90hz-command-state = "dsi_lp_mode";
 				qcom,compression-mode = "dsc";
 				qcom,mdss-dsc-version = <0x11>;
 				qcom,mdss-dsc-scr-version = <0x0>;
